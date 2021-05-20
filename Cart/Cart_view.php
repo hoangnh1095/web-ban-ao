@@ -10,11 +10,11 @@
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<!-- <div class="container">
+	<div class="container">
 	  <h2>Giỏ Hàng </h2>    
-	  <hr>  -->     
-	   <div ><!-- class="table-responsive" -->
-	    <table ><!-- class="table table-bordered" -->
+	  <hr>      
+	   <div class="table-responsive">
+	    <table class="table table-bordered">
 	      <thead>
 	        <tr>
 	          <th>#</th>
@@ -63,6 +63,8 @@
 	      </tbody>
 	    </table>
 	  </div>
-	<!-- </div> -->
+	</div>
+
+	</div>
 </body>
 </html>
