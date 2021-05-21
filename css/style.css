@@ -1,0 +1,226 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*----menu-----*/
+.nav-link{
+    color: white !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    z-index: 1;
+    list-style: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 3rem;
+}
+.navbar a{
+    color: rgb(7, 1, 1);
+}
+.megamenu {
+    width: 550px;
+    height: 150px;
+}
+/*----end menu------*/
+/*product card*/
+.card-product {
+    width: 100%;
+    overflow: hidden;
+}
+.productboxhover {
+    position: absolute;
+    display: none;
+    margin-left: 230px;
+}
+.card:hover .productboxhover {
+    opacity: 1;
+    display: block;
+}
+.checked {
+    color: yellow;
+}
+
+/*-----End card-----*/
+/*----Media---*/
+/* Dành cho điện thoại */
+@media all and (min-width: 320px) {
+.productboxhover {
+    position: absolute;
+    display: none;
+    margin-left: 340px;
+}
+.arrivalhover{
+    position: absolute;
+    height: 30px;
+    margin-left: 45px;
+    margin-top: 259px;
+    background-color: yellow;
+    display: none;
+}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px) { 
+    .productboxhover {
+        position: absolute;
+        display: none;
+        margin-left: 360px;
+    }
+    .arrivalhover{
+        position: absolute;
+        height: 30px;
+        margin-left: 45px;
+        margin-top: 259px;
+        background-color: yellow;
+        display: none;
+    }
+    .cardarrival {
+        margin-top: 290px;
+        margin-left: 5px;
+        position: absolute;
+    }
+ }
+/* Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px) { 
+    .productboxhover {
+        position: absolute;
+        display: none;
+        margin-left: 138px;
+    }
+    .arrivalhover{
+        position: absolute;
+        height: 30px;
+        margin-left: 45px;
+        margin-top: 259px;
+        background-color: yellow;
+        display: none;
+    }
+    .cardarrival {
+        margin-top: 290px;
+        margin-left: 5px;
+        position: absolute;
+    }
+ }
+/*Large devices (desktops, 992px and up)*/
+@media(min-width: 992px) { 
+    .productboxhover {
+        position: absolute;
+        display: none;
+        margin-left: 185px;
+    }
+    .arrivalhover{
+        position: absolute;
+        height: 30px;
+        margin-left: 45px;
+        margin-top: 259px;
+        background-color: yellow;
+        display: none;
+    }
+    .cardarrival {
+        margin-top: 290px;
+        margin-left: 5px;
+        position: absolute;
+    }
+ }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media(min-width: 1200px) { 
+    .productboxhover {
+        position: absolute;
+        display: none;
+        margin-left: 230px;
+    }
+    .arrivalhover{
+        position: absolute;
+        height: 30px;
+        margin-left: 45px;
+        margin-top: 259px;
+        background-color: yellow;
+        display: none;
+    }
+    .cardarrival {
+        margin-top: 290px;
+        margin-left: 5px;
+        position: absolute;
+    }
+ }
+/*------media-------*/
+/*--New ARIVAL--*/
+.arrivalhover{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 259px;
+    background-color: rgb(236, 236, 230);
+    display: none;
+}
+.card:hover .arrivalhover{
+    display: block;
+}
+
+.card:hover .arrivalhover{
+    display: block;
+}
+.btn-outline-dark {
+    color: black;
+    border-color: #343a40;
+    margin-top: -100px;
+}
+.cardarrival {
+    margin-top: 305px;
+    margin-left: 5px;
+    position: absolute;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    width: 120px;
+    text-align: center;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+/*----end arrival-------*/
+/*----icon blog --------*/
+.iconblog {
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 85%;
+}
+
+.imgblog:hover,
+.imgblog:active{
+    filter: brightness(50%) blur(2px);
+}
+/*----end icon blog-----*/
+/*---Footer----*/
+.footer{
+    position: relative;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.footer a{
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.footer i{
+    color: white;
+}
+/*----End Footer--*/
